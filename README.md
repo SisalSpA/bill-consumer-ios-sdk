@@ -1,1 +1,1 @@
-# bill-consumer-ios-sdk
+# Bill Consumer iOS SDK
