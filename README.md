@@ -2,11 +2,9 @@
 <img src="https://www.bill.it/documents/100506/373235/BillBanner.png" alt="Bill Banner">
 </p>
 
-<p align="center">
 [![Version](https://img.shields.io/badge/version-1.0.4-blue.svg)](https://github.com/SisalSpA/bill-consumer-ios-sdk/releases)
 [![Platform](https://img.shields.io/badge/platform-iOS-cc9c00.svg)](https://developer.apple.com/ios)
 [![License](https://img.shields.io/badge/license-Apache%202-lightgrey.svg)](https://github.com/SisalSpA/bill-consumer-ios-sdk/blob/master/LICENSE)
-</p>
 
 ---
 
