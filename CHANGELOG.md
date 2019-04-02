@@ -13,41 +13,41 @@ Tutte le modifiche importanti a questo progetto saranno documentate in questo fi
 
 ---
 
-## [1.0.5](https://github.com/SisalSpA/bill-consumer-android-sdk/releases/tag/1.0.5)
+## [1.0.5](https://github.com/SisalSpA/bill-consumer-ios-sdk/releases/tag/1.0.5)
 ### 02 Aprile 2019
 ### Aggiunto
 - Aggiunto il nuovo caso `SDKConsumerTransactionCanceled` in `BillConsumerSDKResponse` enum
 
 ---
 
-## [1.0.4](https://github.com/SisalSpA/bill-consumer-android-sdk/releases/tag/1.0.4)
+## [1.0.4](https://github.com/SisalSpA/bill-consumer-ios-sdk/releases/tag/1.0.4)
 ### 25 Febbraio 2019
 ### Migliorato
-- Ottimizzato [l'ambiente di testing](https://github.com/SisalSpA/bill-consumer-android-sdk#ambienti) tramite `transactionTokenOnly`
+- Ottimizzato [l'ambiente di testing](https://github.com/SisalSpA/bill-consumer-ios-sdk#ambienti) tramite `transactionTokenOnly`
 
 ---
 
-## [1.0.3](https://github.com/SisalSpA/bill-consumer-android-sdk/releases/tag/1.0.3)
+## [1.0.3](https://github.com/SisalSpA/bill-consumer-ios-sdk/releases/tag/1.0.3)
 ### 22 Febbraio 2019
 ### Migliorato
-- Ottimizzato [l'ambiente di testing](https://github.com/SisalSpA/bill-consumer-android-sdk#ambienti)
+- Ottimizzato [l'ambiente di testing](https://github.com/SisalSpA/bill-consumer-ios-sdk#ambienti)
 
 ---
 
-## [1.0.2](https://github.com/SisalSpA/bill-consumer-android-sdk/releases/tag/1.0.2)
+## [1.0.2](https://github.com/SisalSpA/bill-consumer-ios-sdk/releases/tag/1.0.2)
 ### 13 Febbraio 2019
 ### Migliorato
-- Ottimizzato [l'ambiente di testing](https://github.com/SisalSpA/bill-consumer-android-sdk#ambienti)
+- Ottimizzato [l'ambiente di testing](https://github.com/SisalSpA/bill-consumer-ios-sdk#ambienti)
 
 ---
 
-## [1.0.1](https://github.com/SisalSpA/bill-consumer-android-sdk/releases/tag/1.0.1)
+## [1.0.1](https://github.com/SisalSpA/bill-consumer-ios-sdk/releases/tag/1.0.1)
 ### 12 Febbraio 2019
 ### Aggiunto
-- Aggiunta la possibilità di poter pagare con solo il [Token di Transazione](https://github.com/SisalSpA/bill-consumer-android-sdk#token-di-transazione)
+- Aggiunta la possibilità di poter pagare con solo il [Token di Transazione](https://github.com/SisalSpA/bill-consumer-ios-sdk#token-di-transazione)
 
 ---
 
-## [1.0.0](https://github.com/SisalSpA/bill-consumer-android-sdk/releases/tag/1.0.0)
+## [1.0.0](https://github.com/SisalSpA/bill-consumer-ios-sdk/releases/tag/1.0.0)
 ### 22 Gennaio 2019
 - Rilascio iniziale
