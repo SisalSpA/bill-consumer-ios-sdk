@@ -33,7 +33,7 @@ Requisiti
 
 | **Versione**  | **iOS** |
 |---------------|---------|
-| 1.0.0...1.0.4 | 9.0+    |
+| 1.0.0...1.0.5 | 9.0+    |
 
 Installazione ed Utilizzo
 =========================
@@ -127,13 +127,14 @@ Nel caso in cui si sia in possesso di un token di transazione bisogna aggiungere
 
 Verrà restituito un `enum` di tipo `BillConsumerSDKResponse` all'interno di una block (Objective-C)/ closure (Swift):
 
-| **Parametro**                 | **Note**                                                            |
-|-------------------------------|---------------------------------------------------------------------|
-| SDKConsumerGenericError       | Errore generico                                                     |
-| SDKConsumerBillOpened         | L'app Bill è installata ed è stata aperta                           |
-| SDKConsumerTransactionOK      | La WebView è stata aperta e la transazione è andata a buon fine     |
-| SDKConsumerTransactionKO      | La WebView è stata aperta e la transazione non è andata a buon fine |
-| SDKConsumerTransactionTimeout | La WebView è stata aperta ma la transazione è andata in timeout     |
+| **Parametro**                  | **Note**                                                            |
+|--------------------------------|---------------------------------------------------------------------|
+| SDKConsumerGenericError        | Errore generico                                                     |
+| SDKConsumerBillOpened          | L'app Bill è installata ed è stata aperta                           |
+| SDKConsumerTransactionOK       | La WebView è stata aperta e la transazione è andata a buon fine     |
+| SDKConsumerTransactionKO       | La WebView è stata aperta e la transazione non è andata a buon fine |
+| SDKConsumerTransactionTimeout  | La WebView è stata aperta ma la transazione è andata in timeout     |
+| SDKConsumerTransactionCanceled | La WebView è stata aperta ma la transazione è stata annullata       |
 
 #### Esempio di Codice
 
@@ -202,13 +203,14 @@ Nel caso in cui si sia in possesso del solo token di transazione bisogna aggiung
 
 Verrà restituito un `enum` di tipo `BillConsumerSDKResponse` all'interno di una block (Objective-C)/ closure (Swift):
 
-| **Parametro**                       | **Note**                                                            |
-|-------------------------------------|---------------------------------------------------------------------|
-| SDKConsumerGenericError             | Errore generico                                                     |
-| SDKConsumerBillOpened               | L'app Bill è installata ed è stata aperta                           |
-| SDKConsumerTransactionOK            | La WebView è stata aperta e la transazione è andata a buon fine     |
-| SDKConsumerTransactionKO            | La WebView è stata aperta e la transazione non è andata a buon fine |
-| SDKConsumerTransactionTimeout       | La WebView è stata aperta ma la transazione è andata in timeout     |
+| **Parametro**                  | **Note**                                                            |
+|--------------------------------|---------------------------------------------------------------------|
+| SDKConsumerGenericError        | Errore generico                                                     |
+| SDKConsumerBillOpened          | L'app Bill è installata ed è stata aperta                           |
+| SDKConsumerTransactionOK       | La WebView è stata aperta e la transazione è andata a buon fine     |
+| SDKConsumerTransactionKO       | La WebView è stata aperta e la transazione non è andata a buon fine |
+| SDKConsumerTransactionTimeout  | La WebView è stata aperta ma la transazione è andata in timeout     |
+| SDKConsumerTransactionCanceled | La WebView è stata aperta ma la transazione è stata annullata       |
 
 #### Esempio di Codice
 
@@ -246,14 +248,15 @@ I possibili risultati sono:
 
 Verrà restituito un `enum` di tipo `BillConsumerSDKResponse` all'interno di una block (Objective-C)/ closure (Swift):
 
-| **Parametro**                   | **Note**                                                            |
-|---------------------------------|---------------------------------------------------------------------|
-| SDKConsumerGenericError         | Errore generico                                                     |
-| SDKConsumerGenericStatusError   | Errore generico con lo stato della transazione                      |
-| SDKConsumerTransactionOK        | La WebView è stata aperta e la transazione è andata a buon fine     |
-| SDKConsumerTransactionKO        | La WebView è stata aperta e la transazione non è andata a buon fine |
-| SDKConsumerTransactionPending   | L'app Bill è installata ed è stata aperta                           |
-| SDKConsumerTransactionTimeout   | La WebView è stata aperta ma la transazione è andata in timeout     |
+| **Parametro**                  | **Note**                                       |
+|--------------------------------|------------------------------------------------|
+| SDKConsumerGenericError        | Errore generico                                |
+| SDKConsumerGenericStatusError  | Errore generico con lo stato della transazione |
+| SDKConsumerTransactionOK       | La transazione è andata a buon fine            |
+| SDKConsumerTransactionKO       | La transazione non è andata a buon fine        |
+| SDKConsumerTransactionPending  | L'app Bill è installata ed è stata aperta      |
+| SDKConsumerTransactionTimeout  | Latransazione è andata in timeout              |
+| SDKConsumerTransactionCanceled | La transazione è stata annullata               |
 
 #### Esempio di Codice
 
