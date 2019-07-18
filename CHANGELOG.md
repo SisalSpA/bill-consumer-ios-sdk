@@ -8,16 +8,6 @@ Tutte le modifiche importanti a questo progetto saranno documentate in questo fi
 
 ---
 
-Changelog
-=========
-
----
-
-Tutte le modifiche importanti a questo progetto saranno documentate in questo file.<br>
-`BillConsumerSDK` aderisce al [Semantic Versioning](http://semver.org/).
-
----
-
 ### 1.x Rilasci
 - `1.0.x` Rilasci - [1.0.0](#100) | [1.0.1](#101) | [1.0.7](#107)
 
