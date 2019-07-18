@@ -8,36 +8,27 @@ Tutte le modifiche importanti a questo progetto saranno documentate in questo fi
 
 ---
 
-### 1.x Rilasci
-- `1.0.x` Rilasci - [1.0.0](#100) | [1.0.1](#101) | [1.0.2](#102) | [1.0.3](#103) | [1.0.4](#104) | [1.0.5](#105)
+Changelog
+=========
 
 ---
 
-## [1.0.5](https://github.com/SisalSpA/bill-consumer-ios-sdk/releases/tag/1.0.5)
-### 02 Aprile 2019
+Tutte le modifiche importanti a questo progetto saranno documentate in questo file.<br>
+`BillConsumerSDK` aderisce al [Semantic Versioning](http://semver.org/).
+
+---
+
+### 1.x Rilasci
+- `1.0.x` Rilasci - [1.0.0](#100) | [1.0.1](#101) | [1.0.7](#107)
+
+---
+
+## [1.0.7](https://github.com/SisalSpA/bill-consumer-ios-sdk/releases/tag/1.0.7)
+### 18 Luglio 2019
 ### Aggiunto
 - Aggiunto il nuovo caso `SDKConsumerTransactionCanceled` in `BillConsumerSDKResponse` enum
-
----
-
-## [1.0.4](https://github.com/SisalSpA/bill-consumer-ios-sdk/releases/tag/1.0.4)
-### 25 Febbraio 2019
 ### Migliorato
 - Ottimizzato [l'ambiente di testing](https://github.com/SisalSpA/bill-consumer-ios-sdk#ambienti) tramite `transactionTokenOnly`
-
----
-
-## [1.0.3](https://github.com/SisalSpA/bill-consumer-ios-sdk/releases/tag/1.0.3)
-### 22 Febbraio 2019
-### Migliorato
-- Ottimizzato [l'ambiente di testing](https://github.com/SisalSpA/bill-consumer-ios-sdk#ambienti)
-
----
-
-## [1.0.2](https://github.com/SisalSpA/bill-consumer-ios-sdk/releases/tag/1.0.2)
-### 13 Febbraio 2019
-### Migliorato
-- Ottimizzato [l'ambiente di testing](https://github.com/SisalSpA/bill-consumer-ios-sdk#ambienti)
 
 ---
 
